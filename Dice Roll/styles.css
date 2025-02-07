@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --btnreg: #e4e4e4;
+  --btnhov: #cecece;
+  --btnact: #787878;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Sour Gummy';
+  font-weight: 400;
+  font-style: normal;
+}
+
+button {
+  background-color: var(--btnreg);
+  padding: 5px;
+  margin: 1px;
+  border-radius: 4px;
+  border: solid 1px;
+  text-align: center;
+}
+
+button:hover {
+  background-color: var(--btnhov);
+  cursor: pointer; 
+}
+
+button:active {
+  background-color: var(--btnact);
+  cursor: pointer; 
+}
+
+div {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  text-align: center;
+}
+
+#main {
+  margin-top: 15px;
+  gap: 10px;
+}
+
+#title {
+  font-size: 1rem;
+  margin: 10px;
+}
+
+#rolling {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-right: 45px;
+}
+
+input[type="number"] {
+  text-align: center;
+  text-indent: .9rem;
+}
+
+#dicetext {
+  margin-top: 20px;
+}
+
+#diceimages {
+
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 100px;
+}
+
+.diceims {
+  width: 75px;
+  height: 75px;
+}

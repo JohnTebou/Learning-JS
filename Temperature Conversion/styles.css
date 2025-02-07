@@ -1,0 +1,77 @@
+:root {
+  --btnreg: #fafafa;
+  --btnhov: #cecece;
+  --btnact: #787878;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+button, input[type="submit"] {
+  background-color: var(--btnreg);
+  padding: 5px;
+  margin: 1px;
+  border-radius: 4px;
+  border: solid 1px;
+  text-align: center;
+}
+
+button:hover, input[type="submit"]:hover {
+  background-color: var(--btnhov);
+  cursor: pointer; 
+}
+
+button:active, input[type="submit"]:active {
+  background-color: var(--btnact);
+  cursor: pointer; 
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#content {
+  padding: 30px;
+  width: 270px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 1px #787878;
+  position: absolute;
+  left: 50%;
+  margin-left: -135px;
+  margin-top: 100px;
+}
+
+#title {
+  text-align: center;
+}
+
+span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  gap: 15px;
+}
+
+input[type="number"] {
+  text-align: center;
+  text-indent: 18px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#submit {
+  margin-top: 20px;
+}
